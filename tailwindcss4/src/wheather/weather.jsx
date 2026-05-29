@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import DarkModeToggle from "../darck_brightMode/Darck-Bright";
 
 function Weather() {
-  const [city, setCity] = useState("Mota");
+  const [city, setCity] = useState("Addis Ababa");
   const [weatherData, setWeatherData] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
